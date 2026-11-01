@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>WelcomePage</class>
+ <widget class="QMainWindow" name="WelcomePage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1064</width>
+    <height>788</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="MinimumExpanding" vsizetype="Minimum">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(170, 0, 255);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="Title">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>40</y>
+      <width>361</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: bold 30px;
+set_underline: true;</string>
+    </property>
+    <property name="text">
+     <string>Welcome Screen</string>
+    </property>
+   </widget>
+   <widget class="QScrollArea" name="scrollArea">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>100</y>
+      <width>981</width>
+      <height>611</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color : rgb(255, 255, 255);</string>
+    </property>
+    <property name="verticalScrollBarPolicy">
+     <enum>Qt::ScrollBarAlwaysOn</enum>
+    </property>
+    <property name="horizontalScrollBarPolicy">
+     <enum>Qt::ScrollBarAlwaysOn</enum>
+    </property>
+    <property name="widgetResizable">
+     <bool>true</bool>
+    </property>
+    <widget class="QWidget" name="scrollAreaWidgetContents">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>1928</width>
+       <height>1506</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QLabel" name="label">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt; text-decoration: underline;&quot;&gt;MenuBar:&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Symbol'; font-size:12pt;&quot;&gt;·&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:7pt;&quot;/&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Use this to switch between Welcome Screen, Game Predictor and Team Designer by clicking on the buttons above&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt; text-decoration: underline;&quot;&gt;Welcome Screen:&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Symbol'; font-size:12pt;&quot;&gt;·&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:7pt;&quot;/&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;You are most likely viewing this information on the welcome screen&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Symbol'; font-size:12pt;&quot;&gt;·&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:7pt;&quot;/&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Use this to learn the functionalities of the application by scrolling through and reading the text on this screen&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;/&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt; text-decoration: underline;&quot;&gt;Team designer&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; text-decoration: underline;&quot;&gt;Base Screen:&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Symbol'; font-size:12pt;&quot;&gt;·&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:7pt;&quot;/&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Use this to view list of teams created by scrolling through&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Symbol'; font-size:12pt;&quot;&gt;·&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:7pt;&quot;/&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Can look at dropdown options to change between modes(view, create, modify, delete)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Symbol'; font-size:12pt;&quot;&gt;·&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:7pt;&quot;/&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Default mode is View&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; text-decoration: underline;&quot;&gt;View:&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Symbol'; font-size:12pt;&quot;&gt;·&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:7pt;&quot;/&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Click on a team from the list to view the team in team viewer window&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Symbol'; font-size:12pt;&quot;&gt;·&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:7pt;&quot;/&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Will show player names and statistics of each player in a Table&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Symbol'; font-size:12pt;&quot;&gt;·&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:7pt;&quot;/&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Stays in view mode unless you switch modes&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; text-decoration: underline;&quot;&gt;Create:&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Symbol'; font-size:12pt;&quot;&gt;·&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:7pt;&quot;/&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Will load a Team Creator&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Symbol'; font-size:12pt;&quot;&gt;·&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:7pt;&quot;/&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Enter the Team Name you desire in the text input box next to Team Name (Make sure it is a team name you haven’t used, or else the application will not create the team)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Symbol'; font-size:12pt;&quot;&gt;·&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:7pt;&quot;/&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Priority in this case corresponds to the importance of the player in the Team, where Priority1 is given to the most important player, and Priority5 is given to the least important player.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Symbol'; font-size:12pt;&quot;&gt;·&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:7pt;&quot;/&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;To enter a player into a priority, you enter some text into the text input box next to the priority level, and then options will appear from a dropdown box with suggested players, which you can click and select from&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Symbol'; font-size:12pt;&quot;&gt;·&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:7pt;&quot;/&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Must enter players into all 5 priorities if you want to successfully create the team&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Symbol'; font-size:12pt;&quot;&gt;·&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:7pt;&quot;/&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Will be prompted to make sure you want to leave without saving if you leave before creating the team&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Symbol'; font-size:12pt;&quot;&gt;·&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:7pt;&quot;/&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Click save to finish creating the team.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Symbol'; font-size:12pt;&quot;&gt;·&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:7pt;&quot;/&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Switches back to View Mode Once you have exited the Team Creator&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; text-decoration: underline;&quot;&gt;Modify:&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Symbol'; font-size:12pt;&quot;&gt;·&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:7pt;&quot;/&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Loads Team Modifier&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Symbol'; font-size:12pt;&quot;&gt;·&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:7pt;&quot;/&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Can re-enter the team name in the same space used to enter team name when creating the team&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Symbol'; font-size:12pt;&quot;&gt;·&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:7pt;&quot;/&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Can re-enter different players for each priority using the same method as when creating the team&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Symbol'; font-size:12pt;&quot;&gt;·&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:7pt;&quot;/&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Must click ‘save’ button to ensure that these changes are saved to the database&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Symbol'; font-size:12pt;&quot;&gt;·&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:7pt;&quot;/&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Will be prompted to make sure you want to leave without saving if you leave before modifying the team&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Symbol'; font-size:12pt;&quot;&gt;·&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:7pt;&quot;/&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Switches back to View Mode once you exit the Team Modifier&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; text-decoration: underline;&quot;&gt;Delete:&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Symbol'; font-size:12pt;&quot;&gt;·&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:7pt;&quot;/&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Click on a team, from list of teams in team designer, that you would like to delete&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Symbol'; font-size:12pt;&quot;&gt;·&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:7pt;&quot;/&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Will be asked to confirm choice, where you click yes to delete team, or no to cancel the deletion&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Symbol'; font-size:12pt;&quot;&gt;·&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:7pt;&quot;/&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Stays in Delete Mode unless you switch modes.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt; text-decoration: underline;&quot;&gt;Game Predictor:&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Symbol'; font-size:12pt;&quot;&gt;·&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:7pt;&quot;/&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Will enter a team each into team 1 and team 2&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Symbol'; font-size:12pt;&quot;&gt;·&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:7pt;&quot;/&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;You will enter a team by Scrolling through a list of the teams you designed, and picking a team to enter as team 1 or team 2&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Symbol'; font-size:12pt;&quot;&gt;·&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:7pt;&quot;/&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Cannot predict unless you entered two teams&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Symbol'; font-size:12pt;&quot;&gt;·&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:7pt;&quot;/&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Click on ‘Predict’ button to start prediction&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Symbol'; font-size:12pt;&quot;&gt;·&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:7pt;&quot;/&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Output will be Text saying “Team 1 won”, “Team 2 won” or “Draw”&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1064</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="MinimumExpanding" vsizetype="Maximum">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <widget class="QMenu" name="MenuWelcome">
+    <property name="title">
+     <string>Welcome Screen</string>
+    </property>
+    <addaction name="separator"/>
+   </widget>
+   <widget class="QMenu" name="MenuTeamDesigner">
+    <property name="title">
+     <string>Team Designer</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="MenuGamePredictor">
+    <property name="title">
+     <string>Game Predictor</string>
+    </property>
+   </widget>
+   <addaction name="MenuWelcome"/>
+   <addaction name="MenuTeamDesigner"/>
+   <addaction name="MenuGamePredictor"/>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
